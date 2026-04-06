@@ -6,6 +6,6 @@ import { theme } from "./theme";
 
 createRoot(document.getElementById("root")).render(
   <ChakraProvider value={theme}>
-    <App />
+    <App />,
   </ChakraProvider>,
 );
