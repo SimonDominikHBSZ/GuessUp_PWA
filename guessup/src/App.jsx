@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 import Mainpage from "./assets/MainPage";
 import "./index.css";
 import Categories from "./assets/Categories";
