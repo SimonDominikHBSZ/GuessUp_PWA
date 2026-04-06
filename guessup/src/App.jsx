@@ -7,12 +7,12 @@ import Categories from "./assets/Categories";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Mainpage />} />
           <Route path="/categories" element={<Categories />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
