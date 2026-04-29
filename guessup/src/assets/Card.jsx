@@ -1,8 +1,7 @@
-export default function Card({ title, subtitle }) {
+export default function Card({ title, bgColor }) {
   return (
-    <div id="Card">
+    <div id="Card" style={{ backgroundColor: bgColor }}>
       <h1>{title}</h1>
-      <h3>{subtitle}</h3>
     </div>
   );
 }
