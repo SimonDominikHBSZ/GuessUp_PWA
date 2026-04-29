@@ -2,21 +2,21 @@ import Card from "./Card";
 
 export default function Categories() {
   const names = {
-    Animals: "blue",
+    Animals: "#009B72",
     "Animation Series": "red",
     Anime: "magenta",
     Brands: "yellow",
     Countries: "purple",
     Food: "green",
-    "Harry Potter": "darkblue",
+    "Harry Potter": "#01BAEF",
     "Horror Movies": "crimson",
     "Magyar Zenek": "burlywood",
     Movies: "mediumseagreen",
-    Music: "",
-    Sport: "",
-    "SuperHeroes & Villains": "",
-    "Videogame Characters": "",
-    Videogames: "",
+    Music: "#725AC1",
+    Sport: "#226F54",
+    "SuperHeroes & Villains": "#E98A15",
+    "Videogame Characters": "#FF4365",
+    Videogames: "#EAF27C",
   };
 
   return (
